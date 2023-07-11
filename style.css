@@ -1,0 +1,123 @@
+/*
+Theme Name: JustFumz
+Author: Esther Gbagbeolu
+Author URI: https://github.com/justfumz
+Description: A development theme, from static HTML to WordPress
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clear {
+  clear: both;
+}
+
+/* html{
+    font-size: 62.5%;
+} */
+
+h2 {
+  padding: 3rem 0rem;
+}
+
+nav {
+  background-color: rgb(130, 61, 130);
+  padding: 30px;
+  color: aliceblue;
+}
+
+#logo {
+  float: left;
+}
+
+nav ul {
+  float: right;
+  list-style: none;
+}
+
+li {
+  display: inline;
+  margin-left: 5rem;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: aliceblue;
+}
+
+.hero-section {
+  height: 30rem;
+  text-align: center;
+  background-image: url(/header.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-top: 5rem;
+  color: aliceblue;
+  text-shadow: 3px 3px 3px rgb(125, 89, 125);
+}
+
+.hero-section button {
+  margin-top: 1.5rem;
+  padding: 15px 20px;
+  background: rgb(88, 27, 71);
+  color: aliceblue;
+  border: none;
+  text-shadow: 3px 3px 3px rgb(125, 89, 125);
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.form-section {
+  text-align: center;
+  font-size: 24px;
+}
+
+form {
+  width: 70%;
+  margin: auto;
+}
+
+form input {
+  height: 2rem;
+}
+
+form input,
+form label,
+form textarea {
+  display: block;
+}
+
+form input,
+form textarea {
+  margin: 20px auto;
+  width: 50%;
+}
+
+form button {
+  margin-bottom: 6rem;
+  width: 50%;
+  padding: 15px 20px;
+  background: rgb(88, 27, 71);
+  color: aliceblue;
+  border: none;
+  text-shadow: 3px 3px 3px rgb(125, 89, 125);
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: plum;
+  color: aliceblue;
+  font-weight: bolder;
+  padding: 10px 15px;
+  text-align: center;
+}
